@@ -84,7 +84,7 @@ root.resizable(width=False, height=False)
 
 # настройки интерфейса
 menuSize = 0.26
-colorTop = '#00b8c4'
+colorTop = '#00a8b4'
 colorBot = '#00c8d4'
 colorLight = '#00d8e4'
 colorBtActBg ="#0098a4"
