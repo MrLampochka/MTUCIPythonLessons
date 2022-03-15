@@ -2,14 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <form action="" method="post">
-        {% if full_name %}
-        <p>Hello, {{full_name}}! </p>
-        {% endif %}
-        </p>
-    </form>
+    <title>Welcome!</title>
+    <link href="/static/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div class="login">
+    <form action="" method="post">
+        <div class="text-field">
+            {% if full_name %}
+            <p>Hello, <strong>{{full_name}}</strong>!</p>
+            <p>Your login: <strong>{{login}}</strong></p>
+            <p>Your password: <strong>{{password}}</strong></p>
+            {% endif %}
+        </div>
+        <button type="submit">Logout</button>
+    </form>
+</div>
+
+
 </body>
 </html>

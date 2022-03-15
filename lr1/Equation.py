@@ -1,6 +1,6 @@
-import math
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+
 
 def makeGraph(x1, x2):
     x = np.linspace(-3, 3,100)
@@ -21,8 +21,8 @@ discr = b ** 2 - 4 * a * c
 print("Дискриминант D = %.2f" % discr)
 
 if discr > 0:
-    x1 = (-b + math.sqrt(discr)) / (2 * a)
-    x2 = (-b - math.sqrt(discr)) / (2 * a)
+    x1 = (-b + np.sqrt(discr)) / (2 * a)
+    x2 = (-b - np.sqrt(discr)) / (2 * a)
     print("x1 = %.2f \nx2 = %.2f" % (x1, x2))
     makeGraph(x1,x2)
 elif discr == 0:
