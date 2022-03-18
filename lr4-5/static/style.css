@@ -3,6 +3,10 @@ body {
     background-color: #00a8b459
 }
 
+p {
+    margin: 10px auto;
+}
+
 .login-window {
 
 }
@@ -12,7 +16,7 @@ body {
     padding: 25px;
     border-radius: 10px;
     width: 300px;
-    margin: 200px auto;
+    margin: 100px auto;
     box-shadow: 5px 5px 10px 0px;
 }
 
