@@ -3,3 +3,4 @@ requests
 psycopg2
 tkinter
 pyTelegramBotApi
+PyQt5
